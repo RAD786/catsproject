@@ -22,8 +22,8 @@ function displayCatImage(imageUrl) {
     const img = document.createElement("img");
     img.src = imageUrl;
     img.alt = "Random Cat";
-    img.width = 200;
-    img.height = 200;
+    img.width = 300;
+    img.height = 300;
     img.style.borderRadius = "50%";
 
     catContainer.appendChild(img);
